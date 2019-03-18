@@ -440,7 +440,8 @@ textarea:focus, input:focus, div:focus {
   width: 100%;
   padding-bottom: 200px;
   background-image: url("/static/bgimg6.jpg");
-  background-size: cover; }
+  background-size: cover;
+  transform: translateX(15px); }
 
 .contact-form-align {
   display: flex;
@@ -601,13 +602,8 @@ textarea:focus, input:focus, div:focus {
   height: 100%;
   width: 100%; }
 
-@media (max-width: 994px) {
-  .booking-card-margin {
-    margin-top: 500px; } }
-
-@media (min-width: 995px) {
-  .booking-card-margin {
-    margin-top: 150px; } }
+.booking-card-margin {
+  margin-top: 200px; }
 
 .booking-text {
   font-family: 'Roboto Slab', serif;
@@ -651,14 +647,8 @@ textarea:focus, input:focus, div:focus {
 .correct-margin {
   margin: 0px; }
 
-@media (min-width: 970px) {
-  .map-component-container {
-    height: 400px; } }
-
-@media (max-width: 971px) {
-  .map-component-container {
-    height: 250px;
-    margin-bottom: 500px; } }
+.map-container {
+  height: 400px; }
 
 .map-address-padding {
   display: flex;

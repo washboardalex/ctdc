@@ -1,15 +1,8 @@
-@media (min-width: 970px) {
-  .map-component-container {
-		height:400px;
-	}
+
+.map-container {
+	height:400px;
 }
 
-@media (max-width: 971px) {
-  .map-component-container {
-		height:250px;
-		margin-bottom:500px;
-	}
-}
 
 .map-address-padding {
 	display:flex;

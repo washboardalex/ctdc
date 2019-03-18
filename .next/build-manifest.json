@@ -1,111 +1,27 @@
 {
-  "devFiles": [],
+  "devFiles": [
+    "static/development/dll/dll_0a5735af42686c2a38b2.js"
+  ],
   "pages": {
-    "/components/about/About": [
-      "static/runtime/webpack-89179faa512dd01fbb62.js",
-      "static/chunks/commons.24f23e2f5f6c9a1ba237.js",
-      "static/css/styles.c233b77f.chunk.css",
-      "static/chunks/styles.70f301815b6a579a8688.js",
-      "static/runtime/main-52aad06dcda9f94f3e18.js"
-    ],
-    "/components/backtotopbutton/BackToTopButton": [
-      "static/runtime/webpack-89179faa512dd01fbb62.js",
-      "static/chunks/commons.24f23e2f5f6c9a1ba237.js",
-      "static/css/styles.c233b77f.chunk.css",
-      "static/chunks/styles.70f301815b6a579a8688.js",
-      "static/runtime/main-52aad06dcda9f94f3e18.js"
-    ],
-    "/components/bookingcard/BookingCard": [
-      "static/runtime/webpack-89179faa512dd01fbb62.js",
-      "static/chunks/commons.24f23e2f5f6c9a1ba237.js",
-      "static/css/styles.c233b77f.chunk.css",
-      "static/chunks/styles.70f301815b6a579a8688.js",
-      "static/runtime/main-52aad06dcda9f94f3e18.js"
-    ],
-    "/components/bookingcard/components/calendlywidget/CalendlyWidget": [
-      "static/runtime/webpack-89179faa512dd01fbb62.js",
-      "static/chunks/commons.24f23e2f5f6c9a1ba237.js",
-      "static/css/styles.c233b77f.chunk.css",
-      "static/chunks/styles.70f301815b6a579a8688.js",
-      "static/runtime/main-52aad06dcda9f94f3e18.js"
-    ],
-    "/components/contactcard/components/contactform/ContactForm": [
-      "static/runtime/webpack-89179faa512dd01fbb62.js",
-      "static/chunks/commons.24f23e2f5f6c9a1ba237.js",
-      "static/css/styles.c233b77f.chunk.css",
-      "static/chunks/styles.70f301815b6a579a8688.js",
-      "static/runtime/main-52aad06dcda9f94f3e18.js"
-    ],
-    "/components/contactcard/ContactCard": [
-      "static/runtime/webpack-89179faa512dd01fbb62.js",
-      "static/chunks/commons.24f23e2f5f6c9a1ba237.js",
-      "static/css/styles.c233b77f.chunk.css",
-      "static/chunks/styles.70f301815b6a579a8688.js",
-      "static/runtime/main-52aad06dcda9f94f3e18.js"
-    ],
-    "/components/landingcard/LandingCard": [
-      "static/runtime/webpack-89179faa512dd01fbb62.js",
-      "static/chunks/commons.24f23e2f5f6c9a1ba237.js",
-      "static/css/styles.c233b77f.chunk.css",
-      "static/chunks/styles.70f301815b6a579a8688.js",
-      "static/runtime/main-52aad06dcda9f94f3e18.js"
-    ],
-    "/components/mapview/components/mapview/MapView": [
-      "static/runtime/webpack-89179faa512dd01fbb62.js",
-      "static/chunks/commons.24f23e2f5f6c9a1ba237.js",
-      "static/runtime/main-52aad06dcda9f94f3e18.js"
-    ],
-    "/components/mapview/MapContainer": [
-      "static/runtime/webpack-89179faa512dd01fbb62.js",
-      "static/chunks/commons.24f23e2f5f6c9a1ba237.js",
-      "static/css/styles.c233b77f.chunk.css",
-      "static/chunks/styles.70f301815b6a579a8688.js",
-      "static/runtime/main-52aad06dcda9f94f3e18.js"
-    ],
-    "/components/navbar/components/burgermenu/BurgerMenu": [
-      "static/runtime/webpack-89179faa512dd01fbb62.js",
-      "static/chunks/commons.24f23e2f5f6c9a1ba237.js",
-      "static/css/styles.c233b77f.chunk.css",
-      "static/chunks/styles.70f301815b6a579a8688.js",
-      "static/runtime/main-52aad06dcda9f94f3e18.js"
-    ],
-    "/components/navbar/NavBar": [
-      "static/runtime/webpack-89179faa512dd01fbb62.js",
-      "static/chunks/commons.24f23e2f5f6c9a1ba237.js",
-      "static/css/styles.c233b77f.chunk.css",
-      "static/chunks/styles.70f301815b6a579a8688.js",
-      "static/runtime/main-52aad06dcda9f94f3e18.js"
-    ],
-    "/components/servicescard/ServicesCard": [
-      "static/runtime/webpack-89179faa512dd01fbb62.js",
-      "static/chunks/commons.24f23e2f5f6c9a1ba237.js",
-      "static/css/styles.c233b77f.chunk.css",
-      "static/chunks/styles.70f301815b6a579a8688.js",
-      "static/runtime/main-52aad06dcda9f94f3e18.js"
-    ],
-    "/index": [
-      "static/runtime/webpack-89179faa512dd01fbb62.js",
-      "static/chunks/commons.24f23e2f5f6c9a1ba237.js",
-      "static/css/styles.c233b77f.chunk.css",
-      "static/chunks/styles.70f301815b6a579a8688.js",
-      "static/runtime/main-52aad06dcda9f94f3e18.js"
-    ],
     "/_app": [
-      "static/runtime/webpack-89179faa512dd01fbb62.js",
-      "static/chunks/commons.24f23e2f5f6c9a1ba237.js",
-      "static/runtime/main-52aad06dcda9f94f3e18.js"
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ],
     "/_error": [
-      "static/runtime/webpack-89179faa512dd01fbb62.js",
-      "static/chunks/commons.24f23e2f5f6c9a1ba237.js",
-      "static/runtime/main-52aad06dcda9f94f3e18.js"
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/index": [
+      "static/runtime/webpack.js",
+      "static/css/styles.chunk.css",
+      "static/chunks/styles.js",
+      "static/runtime/main.js"
     ],
     "/": [
-      "static/runtime/webpack-89179faa512dd01fbb62.js",
-      "static/chunks/commons.24f23e2f5f6c9a1ba237.js",
-      "static/css/styles.c233b77f.chunk.css",
-      "static/chunks/styles.70f301815b6a579a8688.js",
-      "static/runtime/main-52aad06dcda9f94f3e18.js"
+      "static/runtime/webpack.js",
+      "static/css/styles.chunk.css",
+      "static/chunks/styles.js",
+      "static/runtime/main.js"
     ]
   }
 }
