@@ -1,0 +1,23 @@
+h1 {
+	font-family: 'Josefin Slab', serif;
+}
+
+h3 {
+	font-family: 'Josefin Slab', serif;
+}
+
+h5 {
+	font-family: 'Roboto Slab', serif;
+}
+
+p {
+	font-family: 'Roboto Slab', serif;
+}
+
+.location-heading {
+	align-text: center;
+}
+
+.index-doc {
+	font-family: 'Quicksand', sans-serif;
+}

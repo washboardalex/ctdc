@@ -1,0 +1,61 @@
+@media (max-width: 994px) {
+  .booking-card-margin {
+		margin-top:500px;
+	}
+}
+
+@media (min-width: 995px) {
+  .booking-card-margin {
+		margin-top:150px;
+	}
+}
+
+.booking-text {
+	font-family: 'Roboto Slab', serif;
+	margin-bottom:20px;
+	padding-left:60px;
+	padding-right:60px;
+}
+
+.booking-card-container {
+	font-family: 'Quicksand', sans-serif;
+	height: 850px; 
+	margin:0px;
+}
+
+.booking-card-head-container {
+	font-family: 'Quicksand', sans-serif;
+	display:flex;
+	justify-content:center;
+	padding-bottom:20px;
+}
+
+.booking-heading {
+	font-family: 'Josefin Slab', serif;
+	border: 1.5px solid black;
+	padding: 15px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.calendly-container {
+	margin:0px;
+	display:flex;
+	flex-direction: column;
+	align-items:center;
+	height:100%;
+}
+
+.booking-form-heading {
+	padding-bottom: 30px;
+}
+
+.booking-copy-container {
+	height: 30%;
+}
+
+.correct-margin {
+	margin:0px;
+}
