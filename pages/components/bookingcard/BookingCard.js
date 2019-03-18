@@ -45,7 +45,6 @@ class BookingCard extends Component {
 							</div>
 						</div>
 					</div>
-					<Fade right>
 					<div className="d-none d-lg-block col-6">
 						<div className="row">
 							<div className="booking-card-head-container col-12">
@@ -59,7 +58,6 @@ class BookingCard extends Component {
 							</div>
 						</div>		
 					</div>
-					</Fade>
 				</div>
 			</div>
 		);

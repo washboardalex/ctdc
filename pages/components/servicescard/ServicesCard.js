@@ -15,7 +15,6 @@ const ServicesCard = () => (
 					</div>		
 					<div className="service-asset-container">
 						<h3>Dentures</h3>
-						<p>Let's try and do some stuff here.</p>
 					</div>
 				</div>
 				</Fade>
@@ -25,7 +24,6 @@ const ServicesCard = () => (
 					</div>		
 					<div className="service-asset-container">
 						<h3>Repairs</h3>
-						<p>Let's try and do some stuff here.</p>
 					</div>
 				</div>
 				</Fade>
@@ -35,7 +33,6 @@ const ServicesCard = () => (
 					</div>		
 					<div className="service-asset-container">
 						<h3>Mouthguards</h3>
-						<p>Let's try and do some stuff here.</p>
 					</div>
 				</div>
 				</Fade>
