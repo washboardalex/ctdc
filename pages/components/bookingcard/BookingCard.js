@@ -24,7 +24,7 @@ class BookingCard extends Component {
 			<div className="booking-card-margin">
 				<div className="row">
 					<Fade top>
-					<div className="d-block d-lg-none col-12">
+					<div style={{marginBottom:'20px'}} className="d-block d-lg-none col-12">
 						<div className="row">
 							<div className="booking-card-head-container col-12">
 								<h1 id="bookingsection" className="booking-heading">BOOK NOW</h1>

@@ -10,7 +10,7 @@ const MapContainer = () => {
             <Fade top>
             <div className="d-block d-lg-none col-12">
                 <div className="map-heading-container-phonescreen">
-                    <div className="row">
+                    <div style={{marginBottom:'20px'}} className="row">
                         <div className="col-12">
                             <div className="map-heading-wrapper">
                                 <h1 id="locationsection" className="map-heading">LOCATION</h1>
