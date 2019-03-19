@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
   	{"src": "package.json", "use": "@now/next"},
-  	{ "src": "index.js", "use": "@now/node-server" }
- 	],
-  "routes": [{"src": "/post/api/contact", "dest": "/post/api/contact"}]
+  	{"src": "/server/*.js", "use": "@now/node"}
+  ],
+  "routes": [{"src": "/api/contact", "dest": "/server/index.js"}]
 }

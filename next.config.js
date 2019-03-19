@@ -13,7 +13,7 @@ module.exports = (phase, { defaultConfig }) => {
 
   const withSass = require('@zeit/next-sass');
 
-  return withSass({target:'serverless'});
+  return withSass();
 };
 
 // {
