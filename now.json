@@ -1,5 +1,4 @@
 {
   "version": 2,
-  "builds": [{"src": "package.json", "use": "@now/next"}],
-  "routes": [{"src": "/post/(.*)", "dest": "/post?id=$1"}]
+  "builds": [{"src": "package.json", "use": "@now/node-server"}],
 }
