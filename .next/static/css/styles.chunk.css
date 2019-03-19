@@ -440,8 +440,7 @@ textarea:focus, input:focus, div:focus {
   width: 100%;
   padding-bottom: 200px;
   background-image: url("/static/bgimg6.jpg");
-  background-size: cover;
-  transform: translateX(15px); }
+  background-size: cover; }
 
 .contact-form-align {
   display: flex;
