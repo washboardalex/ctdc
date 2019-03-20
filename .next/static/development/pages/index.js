@@ -12649,6 +12649,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var MapContainer = function MapContainer() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    id: "locationsection",
     className: "row"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_2___default.a, {
     top: true
@@ -12666,7 +12667,6 @@ var MapContainer = function MapContainer() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "map-heading-wrapper"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    id: "locationsection",
     className: "map-heading"
   }, "LOCATION"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-12"
@@ -12688,7 +12688,6 @@ var MapContainer = function MapContainer() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "map-heading-wrapper"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    id: "locationsection",
     className: "map-heading"
   }, "LOCATION")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "map-address-padding"
@@ -13003,7 +13002,7 @@ function (_React$Component) {
         to: "locationsection",
         spy: true,
         smooth: true,
-        offset: -70,
+        offset: -10,
         duration: 800
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         id: "faq",

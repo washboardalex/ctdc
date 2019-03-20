@@ -70,13 +70,14 @@ class NavBar extends React.Component {
  							<li id="" className="button-main nav-bar-head">
                 <h1 className="nav-logo-text">Cleve-Tooth</h1>
                 <img style={{margin:'20px'}} src="/static/logo3_opt.png" alt="Tooth" height="90" width="90"/>
-                <h1 className="nav-logo-text">Denture Clinic</h1></li>
+                <h1 className="nav-logo-text">Denture Clinic</h1>
+              </li>
               <Link
                 activeClass="active"
                 to="locationsection"
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={-10}
                 duration= {800}
               >
  							  <li id="faq" className="button type3">Location</li>
