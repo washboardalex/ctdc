@@ -22,12 +22,12 @@ class BookingCard extends Component {
 	render() {
 		return (
 			<div className="booking-card-margin">
-				<div className="row">
+				<div id="bookingsection" className="row">
 					<Fade top>
 					<div style={{marginBottom:'20px'}} className="d-block d-lg-none col-12">
 						<div className="row">
 							<div className="booking-card-head-container col-12">
-								<h1 id="bookingsection" className="booking-heading">BOOK NOW</h1>
+								<h1 className="booking-heading">BOOK NOW</h1>
 							</div>
 							<div className="col-12 booking-text">
 								<p>We have provided an online booking form to make your booking process as convenient as possible - if you prefer to book over the phone or via email, please do not hesitate to contact us on 0450 260 650, or send an email to cleveland.tooth@gmail.com. </p>
@@ -48,7 +48,7 @@ class BookingCard extends Component {
 					<div className="d-none d-lg-block col-6">
 						<div className="row">
 							<div className="booking-card-head-container col-12">
-								<h1 id="bookingsection" className="booking-heading">BOOK NOW</h1>
+								<h1 className="booking-heading">BOOK NOW</h1>
 							</div>
 							<div className="col-12 booking-text">
 								<p>We have provided an online booking form to make your booking process as convenient as possible - if you prefer to book over the phone or via email, please do not hesitate to contact us on 0450 260 650, or send an email to cleveland.tooth@gmail.com. </p>
