@@ -19,7 +19,7 @@ const send = ( firstName, lastName, phoneNumber, emailAddress, messageText ) => 
   const from = fullName && emailAddress ? `${fullName} <${emailAddress}>` : `${fullName || emailAddress}`;
   const message = {
     from,
-    to: 'cleveland.tooth@gmail.com',
+    to: 'aleksandar.gujas@gmail.com',
     subject: `New message from ${from} <${phoneNumber}> Cleve-Tooth website contact form`,
     text: `First Name: ${firstName}. Last Name: ${lastName}. phoneNumber: ${phoneNumber}. Email address: ${emailAddress}. Message: ${messageText}`,
     replyTo: from
