@@ -18,7 +18,6 @@ const ServicesCard = () => (
 					</div>
 				</div>
 				</Fade>
-				<Fade bottom>
 				<div className="col-lg-4 col-md-6 col-sm-12 service-asset-container" >
 					<div className="circle repairs-img">
 					</div>		
@@ -26,7 +25,6 @@ const ServicesCard = () => (
 						<h3>Repairs</h3>
 					</div>
 				</div>
-				</Fade>
 				<Fade right>
 				<div className="col-lg-4 col-md-6 col-sm-12 service-asset-container" >
 					<div className="circle mouthguard-img">

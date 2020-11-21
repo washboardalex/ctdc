@@ -1,5 +1,4 @@
 import './About.scss';
-import Fade from 'react-reveal/Fade';
 
 const About = () => (
 	<React.Fragment>
@@ -19,7 +18,6 @@ const About = () => (
 					</div>
 					<div className="row staff-card-wrapper">
 						<div className="col-12 staff-card-2nd-order">
-							<Fade top>
 							<div style={{height:'100%'}} className="staff-card">
 								<div style={{height:'100%'}} className="row">
 									<div className="col-lg-5 col-md-12">	
@@ -37,10 +35,8 @@ const About = () => (
 									</div>
 								</div>
 							</div>
-							</Fade>
 						</div>
 						<div className="col-12 staff-card-2nd-order">
-							<Fade bottom>
 							<div className="staff-card">
 								<div style={{height:'100%'}} className="row">
 									<div style={{height:'100%'}} className="col-lg-5 col-md-12">	
@@ -58,7 +54,6 @@ const About = () => (
 									</div>
 								</div>
 							</div>
-							</Fade>
 						</div>
 					</div>
 				</div>
