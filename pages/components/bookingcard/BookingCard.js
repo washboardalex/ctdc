@@ -30,7 +30,7 @@ class BookingCard extends Component {
 								<h1 className="booking-heading">BOOK NOW</h1>
 							</div>
 							<div className="col-12 booking-text">
-								<p>We have provided an online booking form to make your booking process as convenient as possible - if you prefer to book over the phone or via email, please do not hesitate to contact us on 0450 260 650, or send an email to cleveland.tooth@gmail.com. </p>
+								<p>We have provided an online booking form to make your booking process as easy as possible - if you prefer to book over the phone or via email, please do not hesitate to contact us on 0450 260 650, or send an email to cleveland.tooth@gmail.com. </p>
 							</div>
 							<div className="col-12 booking-text">
 								<p>Aside from the home clinic, Ana also works at the Aboriginal and Torres Strait Islander Health Service - this means that during the week she is often unavailable.  If none of the times below work for you, please let us know and we will do our best to find an appointment time that is mutually suitable.</p>
