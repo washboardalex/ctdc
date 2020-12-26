@@ -41,7 +41,12 @@ class BookingCard extends Component {
 					<div className="col-lg-6 col-md-12">
 						<div className="row no-pad no-gutters booking-card-container">
 							<div className="col-12 calendly-container">
-									<CalendlyWidget />
+                                    <div style={{textAlign: 'center', margin: 30}}>
+                                        <h4>We are currently only accepting bookings via phone appointment.</h4>
+                                        <h4>Please contact 0450 260 650 to book.</h4>
+                                    </div>
+									
+                                    {/* <CalendlyWidget /> */}
 							</div>
 						</div>
 					</div>
