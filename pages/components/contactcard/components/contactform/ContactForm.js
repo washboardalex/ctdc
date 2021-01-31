@@ -175,7 +175,7 @@ class ContactForm extends Component {
 	            				<i style={{color:'white', fontSize:'80px'}} className="material-icons"> error </i>
 	            			</div>
 	            			<div className="col-12 contact-spinner-txt">
-	            				<p>Something went wrong!</p>
+	            				<p>Oops, something went wrong!</p>
 	            				<p>Please call 0431 771 088.</p> 
 	            			</div>
 	            		</div>
