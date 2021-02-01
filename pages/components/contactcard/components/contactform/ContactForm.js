@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
 import ReactLoading from 'react-loading';
 
-import './ContactForm.module.scss';
+import styles from './ContactForm.module.scss';
 
 class ContactForm extends Component {
 	
@@ -76,92 +76,92 @@ class ContactForm extends Component {
 
 	render () {
 		return (
-			<div className="contact-form-background">
-				<div className="col-12 contact-form-align">
-					<div className="row contact-form-container contact-form-container-width">
-						<div className="col-12 contact-form-heading">
+			<div className={`${styles.contactFormBackground}`}>
+				<div className={`col-12 ${styles.contactFormAlign}`}>
+					<div className={`row ${styles.contactFormContainer} ${styles.contactFormContainerWidth}`}>
+						<div className={`col-12 ${styles.contactFormHeading}`}>
 							<h1 name="contactsection">CONTACT</h1>
 						</div>
-						<div className="col-6 align-contact-inputs">
-							<div className="contact-input-wrapper">
+						<div className={`col-6 ${styles.alignContactInputs}`}>
+							<div className={`${styles.contactInputWrapper}`}>
 								<input 
 									name="firstName" 
 									value={this.state.firstName}
 									onChange={(e) => this.onChange(e)} 
 									placeholder="First Name (required)" 
 									type="text" 
-									className={`contact-form-input ${this.state.firstNameValid ? '' : 'contact-form-error-class'}`} 
+									className={`${styles.contactFormInput} ${this.state.firstNameValid ? '' : `${styles.contactFormErrorClass}`}`} 
 								/>
 							</div>
 			      </div>
-			      <div className="col-6 align-contact-inputs">
-							<div className="contact-input-wrapper">
+			      <div className={`col-6 ${styles.alignContactInputs}`}>
+							<div className={`${styles.contactInputWrapper}`}>
 								<input  
 									name="lastName"  
 									value={this.state.lastName}
 									onChange={(e) => this.onChange(e)} 
 									placeholder="Last Name" 
 									type="text" 
-									className="contact-form-input" 
+									className={`${styles.contactFormInput}`} 
 								/>
 							</div>
 			      </div>
-			      <div className="col-12 align-contact-inputs">
-							<div className="contact-input-wrapper">
+			      <div className={`col-12 ${styles.alignContactInputs}`}>
+							<div className={`${styles.contactInputWrapper}`}>
 								<input 
 									name="phoneNumber"
 									value={this.state.phoneNumber} 
 									onChange={(e) => this.onChange(e)} 
 									placeholder="Phone Number (required)" 
 									type="text" 
-									className={`contact-form-input ${this.state.phoneNumberValid ? '' : 'contact-form-error-class'}`} 
+									className={`${styles.contactFormInput} ${this.state.phoneNumberValid ? '' : `${styles.contactFormErrorClass}`}`} 
 								/>
 							</div>
 			      </div>
-			      <div className="col-12 align-contact-inputs">
-							<div className="contact-input-wrapper">
+			      <div className={`col-12 ${styles.alignContactInputs}`}>
+							<div className={`${styles.contactInputWrapper}`}>
 								<input 
 									name="emailAddress"
 									value={this.state.emailAddress} 
 									onChange={(e) => this.onChange(e)} 
 									placeholder="Email" 
 									type="text" 
-									className="contact-form-input" 
+									className={`${styles.contactFormInput}`} 
 								/>
 							</div>
 			      </div>
-			      <div className="col-12 align-contact-inputs">
-							<div className="textarea-wrapper">
+			      <div className={`col-12 ${styles.alignContactInputs}`}>
+							<div className={`${styles.textareaWrapper}`}>
 								<textarea 
 									name="messageText"
 									value={this.state.messageText} 
 									onChange={(e) => this.onChange(e)} 
 									placeholder="Your Message" 
 									type="text" 
-									className="contact-form-textarea" 
+									className={`${styles.contactFormTextarea}`} 
 								>
 								</textarea>
 							</div>
 			      </div>
 			      <Fade bottom>
-			      <div className="col-12 align-contact-inputs">
+			      <div className={`col-12 ${styles.alignContactInputs}`}>
 			      	{	(this.state.loadingState === 'pre-load') &&
-				      	<button onClick={this.onSubmit} className="contact-submit-button">
+				      	<button onClick={this.onSubmit} className={`${styles.contactSubmitButton}`}>
 				      		SUBMIT
 				      	</button>	
 			      	}
 			      	{(this.state.loadingState === 'loading') && 
-	              <div className="col-12 spinner-wrapper">
+	              <div className={`col-12 ${styles.spinnerWrapper}`}>
 					        <ReactLoading type={"spin"} color={"white"} height={80} width={80} />
 					      </div>
 	            }
 	            { (this.state.loadingState === 'submitted') &&
 	            	<div className="col-12">
 	            		<div className="row">
-	            			<div className="col-12 spinner-wrapper">
+	            			<div className={`col-12 ${styles.spinnerWrapper}`}>
 	            				<i style={{color:'white', fontSize:'80px'}} className="material-icons"> check_circle </i>
 	            			</div>
-	            			<div className="col-12 contact-spinner-txt">
+	            			<div className={`col-12 ${styles.contactSpinnerTxt}`}>
 	            				<p>Thank you for your message.</p>
 	            				<p>We will contact you within 24 hours.</p> 
 	            			</div>
@@ -171,10 +171,10 @@ class ContactForm extends Component {
 	            {(this.state.loadingState === 'error') && 
 	            	<div className="col-12">
 	            		<div className="row">
-	            			<div className="col-12 spinner-wrapper">
+	            			<div className={`col-12 ${styles.spinnerWrapper}`}>
 	            				<i style={{color:'white', fontSize:'80px'}} className="material-icons"> error </i>
 	            			</div>
-	            			<div className="col-12 contact-spinner-txt">
+	            			<div className={`col-12 ${styles.contactSpinnerTxt}`}>
 	            				<p>Oops, something went wrong!</p>
 	            				<p>Please call 0431 771 088.</p> 
 	            			</div>

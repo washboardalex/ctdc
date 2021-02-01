@@ -1,8 +1,8 @@
-.service-card-container {
+.serviceCardContainer {
 	margin-bottom: 150px;
 }
 
-.service-heading-container {
+.serviceHeadingContainer {
 	display:flex;
 	justify-content:center;
 	font-family: 'Josefin Slab', serif;
@@ -10,7 +10,7 @@
 	margin-top: 100px;
 }
 
-.service-heading {
+.serviceHeading {
 	border: 1.5px solid black;
 	padding: 15px;
 	-webkit-user-select: none;
@@ -19,7 +19,7 @@
 	user-select: none;
 }
 
-.service-asset-container {
+.serviceAssetContainer {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -36,14 +36,15 @@
 	background-position: center;
 }
 
-.denture-img {
+.dentureImg {
 	background-image:url("/static/DenturesService2.jpg");
 }
 
-.repairs-img {
+.repairsImg {
 	background-image:url("/static/RepairsService2.jpg");	
 }
 
-.mouthguard-img {
+.mouthguardImg {
 	background-image:url("/static/MouthguardService2.jpg");	
 }
+

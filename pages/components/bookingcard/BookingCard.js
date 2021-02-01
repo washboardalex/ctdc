@@ -6,7 +6,7 @@ import CalendlyWidget from './components/calendlywidget/CalendlyWidget';
 
 
 
-import './BookingCard.module.scss';
+import styles from './BookingCard.module.scss';
 
 class BookingCard extends Component {
 
@@ -21,44 +21,44 @@ class BookingCard extends Component {
 
 	render() {
 		return (
-			<div className="booking-card-margin">
+			<div className={`${styles.bookingCardMargin}`}>
 				<div id="bookingsection" className="row">
 					<Fade top>
 					<div style={{marginBottom:'20px'}} className="d-block d-lg-none col-12">
 						<div className="row">
-							<div className="booking-card-head-container col-12">
-								<h1 className="booking-heading">BOOK NOW</h1>
+							<div className={`${styles.bookingCardHeadContainer} col-12`}>
+								<h1 className={`${styles.bookingHeading}`}>BOOK NOW</h1>
 							</div>
-							<div className="col-12 booking-text">
+							<div className={`col-12 ${styles.bookingText}`}>
 								<p>We have provided an online booking form to make your booking process as easy as possible - if you prefer to book over the phone or via email, please do not hesitate to contact us on 0450 260 650, or send an email to cleveland.tooth@gmail.com. </p>
 							</div>
-							<div className="col-12 booking-text">
+							<div className={`col-12 ${styles.bookingText}`}>
 								<p>Aside from the home clinic, Ana also works at the Aboriginal and Torres Strait Islander Health Service - this means that during the week she is often unavailable.  If none of the times below work for you, please let us know and we will do our best to find an appointment time that is mutually suitable.</p>
 							</div>
 						</div>		
 					</div>
 					</Fade>
 					<div className="col-lg-6 col-md-12">
-						<div className="row no-pad no-gutters booking-card-container">
-							<div className="col-12 calendly-container">
-                                    <div style={{textAlign: 'center', margin: 30}}>
+						<div className={`row no-pad no-gutters ${styles.bookingCardContainer}`}>
+							<div className={`col-12 ${styles.calendlyContainer}`}>
+                                    {/* <div style={{textAlign: 'center', margin: 30}}>
                                         <h4>We are currently only accepting bookings via phone appointment.</h4>
                                         <h4>Please contact 0450 260 650 to book.</h4>
-                                    </div>
+                                    </div> */}
 									
-                                    {/* <CalendlyWidget /> */}
+                                    <CalendlyWidget />
 							</div>
 						</div>
 					</div>
 					<div className="d-none d-lg-block col-6">
 						<div className="row">
-							<div className="booking-card-head-container col-12">
-								<h1 className="booking-heading">BOOK NOW</h1>
+							<div className={`${styles.bookingCardHeadContainer} col-12`}>
+								<h1 className={`${styles.bookingHeading}`}>BOOK NOW</h1>
 							</div>
-							<div className="col-12 booking-text">
+							<div className={`col-12 ${styles.bookingText}`}>
 								<p>We have provided an online booking form to make your booking process as convenient as possible - if you prefer to book over the phone or via email, please do not hesitate to contact us on 0450 260 650, or send an email to cleveland.tooth@gmail.com. </p>
 							</div>
-							<div className="col-12 booking-text">
+							<div className={`col-12 ${styles.bookingText}`}>
 								<p>Aside from the home clinic, Ana also works at the Aboriginal and Torres Strait Islander Health Service - this means that during the week she is often unavailable.  If none of the times below work for you, please let us know and we will do our best to find an appointment time that is mutually suitable.</p>
 							</div>
 						</div>		

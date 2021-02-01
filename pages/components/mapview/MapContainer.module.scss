@@ -1,21 +1,21 @@
 
-.map-container {
+.mapContainer {
 	height:400px;
 }
 
 
-.map-address-padding {
+.mapAddressPadding {
 	display:flex;
 	flex-direction: column;
 	align-items: center;
 	padding-top:30px;
 }
 
-.map-address-text {
+.mapAddressText {
 	font-family: 'Roboto Slab', serif;
 }
 
-.map-heading-container {
+.mapHeadingContainer {
 	display: inline-block;
 	text-align: center;
 	width:100%;
@@ -23,23 +23,23 @@
 	padding-bottom: 30px
 }
 
-.map-heading-container-phonescreen {
+.mapHeadingContainer-phonescreen {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
-.map-heading-wrapper {
+.mapHeadingWrapper {
 	display:flex;
 	justify-content:center;
 }
 
-.map-heading {
+.mapHeading {
 	padding-top:30px;
 	width: 250px;
 	font-family: 'Josefin Slab', serif;
 	border: 1.5px solid black;
-	padding: 15px;
+    padding: 15px;
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;

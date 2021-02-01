@@ -1,35 +1,35 @@
-import './ServicesCard.module.scss';
+import styles from './ServicesCard.module.scss';
 
 import Fade from 'react-reveal/Fade';
 
 const ServicesCard = () => (
-	<div className="row service-card-container">
-		<div className="col-12 service-heading-container" >
-			<h1 id="servicessection" className="service-heading">OUR SERVICES</h1>
+	<div className={`row ${styles.serviceCardContainer}`}>
+		<div className={`col-12 ${styles.serviceHeadingContainer}`} >
+			<h1 id="servicessection" className={`${styles.serviceHeading}`}>OUR SERVICES</h1>
 		</div>
 		<div className="col-12">
 			<div className="row">
 				<Fade left>
-				<div className="col-lg-4 col-md-6 col-sm-12 service-asset-container" >
-					<div className="circle denture-img">
+				<div className={`col-lg-4 col-md-6 col-sm-12 ${styles.serviceAssetContainer}`} >
+					<div className={`${styles.circle} ${styles.dentureImg}`}>
 					</div>		
-					<div className="service-asset-container">
+					<div className={`${styles.serviceAssetContainer}`}>
 						<h3>Dentures</h3>
 					</div>
 				</div>
 				</Fade>
-				<div className="col-lg-4 col-md-6 col-sm-12 service-asset-container" >
-					<div className="circle repairs-img">
+				<div className={`col-lg-4 col-md-6 col-sm-12 ${styles.serviceAssetContainer}`} >
+					<div className={`${styles.circle} ${styles.repairsImg}`}>
 					</div>		
-					<div className="service-asset-container">
+					<div className={`${styles.serviceAssetContainer}`}>
 						<h3>Repairs</h3>
 					</div>
 				</div>
 				<Fade right>
-				<div className="col-lg-4 col-md-6 col-sm-12 service-asset-container" >
-					<div className="circle mouthguard-img">
+				<div className={`col-lg-4 col-md-6 col-sm-12 ${styles.serviceAssetContainer}`} >
+					<div className={`${styles.circle} ${styles.mouthguardImg}`}>
 					</div>		
-					<div className="service-asset-container">
+					<div className={`${styles.serviceAssetContainer}`}>
 						<h3>Mouthguards</h3>
 					</div>
 				</div>

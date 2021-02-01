@@ -1,11 +1,17 @@
 import ContactForm from './components/contactform/ContactForm';
 
-import './ContactCard.module.scss';
+import styles from './ContactCard.module.scss';
 
-const ContactCard = () => (
-		<div className="row contact-container-height contact-container-dimensions">
+
+
+const ContactCard = () => { 
+    const { contactContainerHeight, contactContainerDimensions } = styles;
+
+    return (
+		<div className={`row ${contactContainerHeight} ${contactContainerDimensions}`}>
 			<ContactForm />
 		</div>
-);
+    );
+};
 
 export default ContactCard;
