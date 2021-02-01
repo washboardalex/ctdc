@@ -24,7 +24,8 @@ const Index = () => (
 			<ContactCard />
 		</div>
 		<BackToTopButton />
-	</div>
+    </div>
+    
 );
 
 export default Index;

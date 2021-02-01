@@ -14,6 +14,7 @@ export default class MyDocument extends Document {
 						integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" 
 						crossOrigin="anonymous" 
 					/>
+                    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
 				</Head>
 				<title>Cleve-Tooth Denture Clinic</title>
 				<body>
