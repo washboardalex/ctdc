@@ -3,7 +3,7 @@
 import { Link, animateScroll as scroll } from 'react-scroll';
 
 import Burger from './components/burgermenu/BurgerMenu';
-import './NavBar.module.scss';
+import styles from './NavBar.module.scss';
 
 
 
@@ -40,13 +40,13 @@ class NavBar extends React.Component {
            </div>
          ) : (
            <React.Fragment>
-           <div className="all nav-contact-bar"> 
-             <div className="all contact-bar-text"> 
+           <div className={`${styles.all} ${styles.navContactBar}`}> 
+             <div className={`${styles.all} ${styles.contactBarText}`}> 
                Ph: 0431 771 088 | E-mail: cleveland.tooth@gmail.com | Provider Number: 4040361H | ABN: 68 099 671 964
              </div>
            </div>
-           <nav style={{marginBottom:'40px', marginTop:'20px'}} className="all nav-bar-style">
- 						<ul className="align-nav-items">
+           <nav style={{marginBottom:'40px', marginTop:'20px'}} className={`${styles.all} ${styles.navBarStyle}`}>
+ 						<ul className={`${styles.alignNavItems}`}>
               <Link
                 activeClass="active"
                 to="aboutsection"
@@ -55,7 +55,7 @@ class NavBar extends React.Component {
                 offset={-70}
                 duration= {700}
               >
-                <li id="about" className="button all type1">About</li>
+                <li id="about" className={`${styles.button} ${styles.all} ${styles.type1}`}>About</li>
               </Link>
               <Link
                 activeClass="active"
@@ -65,12 +65,12 @@ class NavBar extends React.Component {
                 offset={-70}
                 duration= {800}
               >
- 							  <li id="services" className="button type2"><span className="all no-underline">Services</span></li>
+ 							  <li id="services" className={`${styles.button} ${styles.type2}`}><span className="all no-underline">Services</span></li>
               </Link>
- 							<li id="" className="all button-main nav-bar-head">
-                <h1 className="all nav-logo-text">Cleve-Tooth</h1>
+ 							<li id="" className={`${styles.all} ${styles.buttonMain} ${styles.navBarHead}`}>
+                <h1 className={`${styles.all} ${styles.navLogoText}`}>Cleve-Tooth</h1>
                 <img style={{margin:'20px'}} src="/static/logo3_opt.png" alt="Tooth" height="90" width="90"/>
-                <h1 className="all nav-logo-text">Denture Clinic</h1>
+                <h1 className={`${styles.all} ${styles.navLogoText}`}>Denture Clinic</h1>
               </li>
               <Link
                 activeClass="active"
@@ -80,7 +80,7 @@ class NavBar extends React.Component {
                 offset={-10}
                 duration= {800}
               >
- 							  <li id="faq" className="all button type3">Location</li>
+ 							  <li id="faq" className={`${styles.all} ${styles.button} ${styles.type3}`}>Location</li>
               </Link>
               <Link
                 activeClass="active"
@@ -90,7 +90,7 @@ class NavBar extends React.Component {
                 offset={-35}
                 duration= {1000}
               >
- 							  <li id="contact" className="all button type2">Contact</li>
+ 							  <li id="contact" className={`${styles.button} ${styles.all} ${styles.type2}`}>Contact</li>
               </Link>
  						</ul>
  					</nav>

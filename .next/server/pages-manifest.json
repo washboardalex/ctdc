@@ -1,19 +1,7 @@
 {
   "/_document": "pages/_document.js",
-  "/components/about/About": "pages/components/about/About.html",
-  "/components/backtotopbutton/BackToTopButton": "pages/components/backtotopbutton/BackToTopButton.html",
-  "/components/bookingcard/BookingCard": "pages/components/bookingcard/BookingCard.html",
-  "/components/bookingcard/components/calendlywidget/CalendlyWidget": "pages/components/bookingcard/components/calendlywidget/CalendlyWidget.html",
-  "/components/contactcard/ContactCard": "pages/components/contactcard/ContactCard.html",
-  "/components/contactcard/components/contactform/ContactForm": "pages/components/contactcard/components/contactform/ContactForm.html",
-  "/components/landingcard/LandingCard": "pages/components/landingcard/LandingCard.html",
-  "/components/mapview/MapContainer": "pages/components/mapview/MapContainer.html",
-  "/components/mapview/components/mapview/MapView": "pages/components/mapview/components/mapview/MapView.html",
-  "/components/navbar/NavBar": "pages/components/navbar/NavBar.html",
-  "/components/navbar/components/burgermenu/BurgerMenu": "pages/components/navbar/components/burgermenu/BurgerMenu.html",
-  "/components/servicescard/ServicesCard": "pages/components/servicescard/ServicesCard.html",
-  "/": "pages/index.html",
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
-  "/404": "pages/404.html"
+  "/": "pages/index.js",
+  "/next/dist/pages/_error": "pages/next/dist/pages/_error.js"
 }

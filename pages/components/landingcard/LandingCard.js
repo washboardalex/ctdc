@@ -1,17 +1,17 @@
-import './LandingCard.module.scss';
+import styles from './LandingCard.module.scss';
 
 import Fade from 'react-reveal/Fade';
 import { Link, animateScroll as scroll } from 'react-scroll';
 
 const LandingCard = () => (
 
-	<div className="row no-gutters card-container card-container-margin">
-		<div className="col-12 landing-image-container">
-			<div className="phrase-container">
-				<div className="banner-text">
-					<p className="d-none d-md-block">Restore What is Missing, Protect What Remains</p>
-					<p className="d-block d-md-none mobile-screen-banner-text">Restore What is Missing</p>
-					<p className="d-block d-md-none mobile-screen-banner-text">Protect What Remains</p>
+	<div className={`row no-gutters ${styles.cardContainer} ${styles.cardContainerMargin}`}>
+		<div className={`col-12 ${styles.landingImageContainer}`}>
+			<div className={`${styles.phraseContainer}`}>
+				<div className={`${styles.bannerText}`}>
+					<p className={`d-none d-md-block`}>Restore What is Missing, Protect What Remains</p>
+					<p className={`d-block d-md-none ${styles.mobileScreenBannerText}`}>Restore What is Missing</p>
+					<p className={`d-block d-md-none ${styles.mobileScreenBannerText}`}>Protect What Remains</p>
 				</div>
 				<Link
           activeClass="active"
@@ -21,10 +21,10 @@ const LandingCard = () => (
           offset={-25}
           duration= {800}
         >
-					<button className="booking-button">
+					<button className={`${styles.bookingButton}`}>
 						Book Now
-						<div className="booking-button__horizontal"></div>
-						<div className="booking-button__vertical"></div>
+						<div className={`${styles.bookingButton__horizontal}`}></div>
+						<div className={`${styles.bookingButton__vertical}`}></div>
 					</button>
 				</Link>
 			</div>

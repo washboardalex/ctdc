@@ -1,4 +1,4 @@
-.card-container {
+.cardContainer {
 	height: 541px;
 	display:flex;
 	justify-content:center;
@@ -7,9 +7,10 @@
 
 @media (min-width: 993px) {
 
-  .phrase-container {
+  .phraseContainer {
 		position:absolute;
-		right:120px;
+        right:120px;
+        top: 60px;
 		display:flex;
 		flex-direction: column;
 		justify-content: space-between;
@@ -19,10 +20,11 @@
 }
 
 @media (max-width: 992px) {
-  .phrase-container {
+  .phraseContainer {
 		display:flex;
 		flex-direction: column;
-		justify-content: space-between;
+        justify-content: space-around;
+        height: 100%;
 		align-items: center;
 		background-color:rgba(255,255,255,0.5);
 	}
@@ -30,18 +32,18 @@
 
 
 
-.mobile-screen-banner-text {
+.mobileScreenBannerText {
 	display: block;
 	width: 100%;
 	font-size: 4.4vw;
 }
 
-.staff-card-p-text {
+.staffCardPText {
 	font-family: 'Roboto Slab', serif;
 }
 
 
-.banner-text {
+.bannerText {
 	margin-top:40px;
 	padding:30px;
 	font-family: 'Quicksand', sans-serif;
@@ -50,22 +52,23 @@
 	margin-right:50px;
 }
 
-.landing-image-container {
+.landingImageContainer {
 	background-image:url("/static/dsa_opt.jpg");
 	background-size:cover;
-  background-position: center;
+    background-position: center;
+    height: 100%;
 }
 
-.custom-action-tag {
+.customActionTag {
 	color:white;
 	font-weight:underline;
 }
 
-.custom-action-tag:hover {
+.customActionTag:hover {
 	color:yellow;
 }
 
-.booking-.booking-button {
+.bookingButton {
 	margin-top:40px;	
 	--offset: 10px;
 	--border-size: 2px;
@@ -145,4 +148,4 @@
 	
 }
 
-.booking-button:focus {outline:0;}
+.bookingButton:focus {outline:0;}
