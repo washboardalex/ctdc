@@ -7,6 +7,7 @@ import CalendlyWidget from './components/calendlywidget/CalendlyWidget';
 
 
 import styles from './BookingCard.module.scss';
+import styles2 from '../landingcard/LandingCard.module.scss';
 
 class BookingCard extends Component {
 
@@ -30,7 +31,7 @@ class BookingCard extends Component {
 								<h1 className={`${styles.bookingHeading}`}>BOOK NOW</h1>
 							</div>
 							<div className={`col-12 ${styles.bookingText}`}>
-								<p>We have provided an online booking form to make your booking process as easy as possible - if you prefer to book over the phone or via email, please do not hesitate to contact us on 0450 260 650, or send an email to cleveland.tooth@gmail.com. </p>
+								<p>We have provided an online booking form to make your booking process as easy as possible. You can access it by clicking the button below, or if you prefer to book over the phone or via email, please do not hesitate to contact us on 0450 260 650, or send an email to cleveland.tooth@gmail.com. </p>
 							</div>
 							<div className={`col-12 ${styles.bookingText}`}>
 								<p>Aside from the home clinic, Ana also works at the Aboriginal and Torres Strait Islander Health Service - this means that during the week she is often unavailable.  If none of the times below work for you, please let us know and we will do our best to find an appointment time that is mutually suitable.</p>
@@ -38,30 +39,29 @@ class BookingCard extends Component {
 						</div>		
 					</div>
 					</Fade>
-					<div className="col-lg-6 col-md-12">
-						<div className={`row no-pad no-gutters ${styles.bookingCardContainer}`}>
-							<div className={`col-12 ${styles.calendlyContainer}`}>
-                                    <div style={{textAlign: 'center', margin: 30}}>
-                                        <h4>We are currently only accepting bookings via phone appointment.</h4>
-                                        <h4>Please contact 0450 260 650 to book.</h4>
-                                    </div>
-									
-                                    {/* <CalendlyWidget /> */}
-							</div>
-						</div>
+					<div className="col-lg-3 col-md-12">
 					</div>
-					<div className="d-none d-lg-block col-6">
+					<div className="d-none d-lg-block col-lg-6 col-md-12">
 						<div className="row">
 							<div className={`${styles.bookingCardHeadContainer} col-12`}>
 								<h1 className={`${styles.bookingHeading}`}>BOOK NOW</h1>
 							</div>
 							<div className={`col-12 ${styles.bookingText}`}>
-								<p>We have provided an online booking form to make your booking process as convenient as possible - if you prefer to book over the phone or via email, please do not hesitate to contact us on 0450 260 650, or send an email to cleveland.tooth@gmail.com. </p>
+								<p>We have provided an online booking form to make your booking process as easy as possible. You can access it by clicking the button below, or if you prefer to book over the phone or via email, please do not hesitate to contact us on 0450 260 650, or send an email to cleveland.tooth@gmail.com. </p>
 							</div>
 							<div className={`col-12 ${styles.bookingText}`}>
 								<p>Aside from the home clinic, Ana also works at the Aboriginal and Torres Strait Islander Health Service - this means that during the week she is often unavailable.  If none of the times below work for you, please let us know and we will do our best to find an appointment time that is mutually suitable.</p>
 							</div>
+                            <div style={{display:'flex', justifyContent: 'center', alignItems: 'center', width: '100%'}}>
+                                <button className={`${styles2.bookingButton}`} onClick={() => window.open('https://bookings.nookal.com/bookings/company/VBMMX','_blank')}>
+                                    Book Online
+                                    <div className={`${styles2.bookingButton__horizontal}`}></div>
+                                    <div className={`${styles2.bookingButton__vertical}`}></div>
+                                </button>
+                            </div>
 						</div>		
+					</div>
+                    <div className="col-lg-3 col-md-12">
 					</div>
 				</div>
 			</div>
