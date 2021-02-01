@@ -1,0 +1,1 @@
+{"ast":null,"code":"import React from \"react\";\nvar __jsx = React.createElement;\nimport './CalendlyWidget.css';\n\nconst CalendlyWidget = () => __jsx(\"div\", {\n  class: \"calendly-inline-widget\",\n  \"data-url\": \"https://calendly.com/cleveland-tooth/60min?hide_gdpr_banner=1\"\n});\n\nexport default CalendlyWidget;","map":null,"metadata":{},"sourceType":"module"}

@@ -1,7 +1,7 @@
 import {animateScroll as scroll } from 'react-scroll';
 import Fade from 'react-reveal/Fade';
 
-import './BackToTopButton.scss';
+import './BackToTopButton.module.scss';
 
 class BackToTopButton extends React.Component {
 

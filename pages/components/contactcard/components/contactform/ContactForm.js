@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
 import ReactLoading from 'react-loading';
 
-import './ContactForm.scss';
+import './ContactForm.module.scss';
 
 class ContactForm extends Component {
 	

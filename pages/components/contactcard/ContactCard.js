@@ -1,6 +1,6 @@
 import ContactForm from './components/contactform/ContactForm';
 
-import './ContactCard.scss';
+import './ContactCard.module.scss';
 
 const ContactCard = () => (
 		<div className="row contact-container-height contact-container-dimensions">

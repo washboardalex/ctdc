@@ -6,7 +6,7 @@ import CalendlyWidget from './components/calendlywidget/CalendlyWidget';
 
 
 
-import './BookingCard.scss';
+import './BookingCard.module.scss';
 
 class BookingCard extends Component {
 

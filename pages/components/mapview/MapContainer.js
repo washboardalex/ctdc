@@ -2,7 +2,7 @@ import MapView from './components/mapview/MapView';
 
 import Fade from 'react-reveal/Fade';
 
-import './MapContainer.scss';
+import './MapContainer.module.scss';
 
 const MapContainer = () => {
     return (

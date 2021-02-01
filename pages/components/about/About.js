@@ -1,4 +1,4 @@
-import './About.scss';
+import './About.module.scss';
 
 const About = () => (
 	<React.Fragment>

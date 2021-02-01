@@ -1,5 +1,5 @@
 import { Link, animateScroll as scroll } from 'react-scroll';
-import './BurgerMenu.scss';
+import './BurgerMenu.module.scss';
 
 
 class BurgerComponent extends React.Component {

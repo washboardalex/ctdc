@@ -9,7 +9,7 @@ import BackToTopButton from './components/backtotopbutton/BackToTopButton';
 
 import { Link, Element } from 'react-scroll';
 
-import './styles/index.scss';
+import './styles/index.module.scss';
 
 
 const Index = () => (

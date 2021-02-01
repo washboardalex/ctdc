@@ -1,4 +1,4 @@
-import './ServicesCard.scss';
+import './ServicesCard.module.scss';
 
 import Fade from 'react-reveal/Fade';
 

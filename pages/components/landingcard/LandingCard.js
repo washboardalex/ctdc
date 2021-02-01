@@ -1,4 +1,4 @@
-import './LandingCard.scss';
+import './LandingCard.module.scss';
 
 import Fade from 'react-reveal/Fade';
 import { Link, animateScroll as scroll } from 'react-scroll';
