@@ -1,4 +1,4 @@
-.back-to-top-button {
+.backToTopButton {
 	height: 80px;
 	width: 80px;
 	border: 1px dashed black;
@@ -15,7 +15,7 @@
 
 
 @media (min-width: 801px) {
-	.back-to-top-button-position {
+	.backToTopButtonPosition {
 			position: fixed;
 			bottom:5px;
 			left: 47.6%;
@@ -23,7 +23,7 @@
 }
 
 @media (min-width: 401px) and (max-width: 800px) {
-	.back-to-top-button-position {
+	.backToTopButtonPosition {
 			position: fixed;
 			bottom:5px;
 			left: 43.5%;
@@ -31,14 +31,14 @@
 }
 
 @media (max-width: 400px) {
-	.back-to-top-button-position {
+	.backToTopButtonPosition {
 			position: fixed;
 			bottom:5px;
 			left: 39%;
 	}
 }
 
-.back-to-top-button:focus {
+.backToTopButton:focus {
     outline: 0;
     box-shadow: none!important;
 }

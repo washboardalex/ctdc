@@ -1,7 +1,7 @@
 import {animateScroll as scroll } from 'react-scroll';
 import Fade from 'react-reveal/Fade';
 
-import './BackToTopButton.module.scss';
+import styles from './BackToTopButton.module.scss';
 
 class BackToTopButton extends React.Component {
 
@@ -36,10 +36,10 @@ class BackToTopButton extends React.Component {
 	render() {
 		const { hideBackToTopButton } = this.state;
 		return (
-			<div id="back-to-top-button" className="back-to-top-wrapper">
+			<div id="back-to-top-button" className={`${styles.backToTopWrapper}`}>
 				{!hideBackToTopButton && 
 					<Fade bottom>
-						<button onClick={this.scrollToTop} className="back-to-top-button back-to-top-button-position">
+						<button onClick={this.scrollToTop} className={`${styles.backToTopButton} ${styles.backToTopButtonPosition}`}>
 							<i className="material-icons">arrow_upward</i>
 							Top
 						</button>

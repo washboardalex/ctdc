@@ -185,7 +185,7 @@ class ContactForm extends Component {
 			      </Fade>
 					</div>
 				</div>
-				<span className="website-by"><a target="_blank" href="http://aleksandargujas.net">Website by AG Web Dev</a></span>
+				<span className={`${styles.websiteBy}`}><a target="_blank" href="http://aleksandargujas.net">Website by AG Web Dev</a></span>
 			</div>
 		);
 	}
