@@ -31,15 +31,16 @@ class BookingCard extends Component {
 								<h1 className={`${styles.bookingHeading}`}>BOOK NOW</h1>
 							</div>
 							<div className={`col-12 ${styles.bookingText}`}>
-								<p>We have provided an online booking form to make your booking process as easy as possible. You can access it by clicking the button below, or if you prefer to book over the phone or via email, please do not hesitate to contact us on 0450 260 650, or send an email to cleveland.tooth@gmail.com. </p>
+								<p>We have provided an online booking form to make your booking process as easy as possible. If you prefer to book over the phone or via email, please do not hesitate to contact us on 0450 260 650, or send an email to cleveland.tooth@gmail.com. </p>
 							</div>
 							<div className={`col-12 ${styles.bookingText}`}>
-								<p>Aside from the home clinic, Ana also works at the Aboriginal and Torres Strait Islander Health Service - this means that during the week she is often unavailable.  If none of the times below work for you, please let us know and we will do our best to find an appointment time that is mutually suitable.</p>
+								<p>Aside from the home clinic, Ana also works at the Aboriginal and Torres Strait Islander Health Service - this means that during the week she is often unavailable.  If none of the times available work for you, please let us know and we will do our best to find an appointment time that is mutually suitable.</p>
 							</div>
 						</div>		
 					</div>
 					</Fade>
-					<div className="col-lg-3 col-md-12">
+					<div className="col-lg-6 col-md-12">
+                        <iframe src="https://bookings.nookal.com/bookings/company/VBMMX/VMTRS" width="800" height="600" style={{border: '0px solid #CCCCCC', height: 700, borderRadius: '3px', width: '100%'}}></iframe>
 					</div>
 					<div className="d-none d-lg-block col-lg-6 col-md-12">
 						<div className="row">
@@ -47,10 +48,10 @@ class BookingCard extends Component {
 								<h1 className={`${styles.bookingHeading}`}>BOOK NOW</h1>
 							</div>
 							<div className={`col-12 ${styles.bookingText}`}>
-								<p>We have provided an online booking form to make your booking process as easy as possible. You can access it by clicking the button below, or if you prefer to book over the phone or via email, please do not hesitate to contact us on 0450 260 650, or send an email to cleveland.tooth@gmail.com. </p>
+								<p>We have provided an online booking form to make your booking process as easy as possible. If you prefer to book over the phone or via email, please do not hesitate to contact us on 0450 260 650, or send an email to cleveland.tooth@gmail.com. </p>
 							</div>
 							<div className={`col-12 ${styles.bookingText}`}>
-								<p>Aside from the home clinic, Ana also works at the Aboriginal and Torres Strait Islander Health Service - this means that during the week she is often unavailable.  If none of the times below work for you, please let us know and we will do our best to find an appointment time that is mutually suitable.</p>
+								<p>Aside from the home clinic, Ana also works at the Aboriginal and Torres Strait Islander Health Service - this means that during the week she is often unavailable.  If none of the times available work for you, please let us know and we will do our best to find an appointment time that is mutually suitable.</p>
 							</div>
                             <div style={{display:'flex', justifyContent: 'center', alignItems: 'center', width: '100%'}}>
                                 <button className={`${styles2.bookingButton}`} onClick={() => window.open('https://bookings.nookal.com/bookings/company/VBMMX','_blank')}>
@@ -58,10 +59,9 @@ class BookingCard extends Component {
                                     <div className={`${styles2.bookingButton__horizontal}`}></div>
                                     <div className={`${styles2.bookingButton__vertical}`}></div>
                                 </button>
+                                
                             </div>
 						</div>		
-					</div>
-                    <div className="col-lg-3 col-md-12">
 					</div>
 				</div>
 			</div>
