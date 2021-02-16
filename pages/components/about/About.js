@@ -36,7 +36,7 @@ const About = () => (
 								</div>
 							</div>
 						</div>
-						<div className={`col-12 ${styles.staffCard2ndOrder}`}>
+						{/* <div className={`col-12 ${styles.staffCard2ndOrder}`}>
 							<div className={`${styles.staffCard}`}>
 								<div style={{height:'100%'}} className="row">
 									<div style={{height:'100%'}} className="col-lg-5 col-md-12">	
@@ -54,7 +54,7 @@ const About = () => (
 									</div>
 								</div>
 							</div>
-						</div>
+						</div> */}
 					</div>
 				</div>
 			</div>
